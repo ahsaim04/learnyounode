@@ -5,6 +5,5 @@ fs.readFile(file,function(err, contents) {
         console.error(err)
         return
     }
-    var count = contents.toString().split('\n').length - 1 ; 
-    console.log(count)  
+    console.log(contents.toString().split('\n').length - 1)  
 })
